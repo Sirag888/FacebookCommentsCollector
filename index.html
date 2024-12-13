@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Comments Collector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>איסוף תגובות מפייסבוק</h1>
+        
+        <div class="instructions">
+            <p>הוראות שימוש:</p>
+            <ol>
+                <li>הכנס URLs של פוסטים מפייסבוק (כל URL בשורה נפרדת)</li>
+                <li>לחץ על כפתור "התחל איסוף"</li>
+                <li>התוצאות יופיעו בחלון נפרד</li>
+            </ol>
+        </div>
+
+        <textarea id="urlsInput" placeholder="הכנס כאן URLs של פוסטים מפייסבוק (כל URL בשורה חדשה)" dir="ltr"></textarea>
+        <button onclick="startCollection()">התחל איסוף</button>
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
